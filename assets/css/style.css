@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:100,200,300,400,500,600,700;+Display&family=Roboto:100,200,300,400,500,600,700;&display=swap');
+
+/*------------------------------------------------------Heading */
+
+header{
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/bts_logo.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+/*---------------------------------------------------------Navbar */
+
+.navbar {
+    font-family: playfair-display, sans-serif;
+    font-weight: 500;
+    margin-bottom: 0px;
+    border: 0;
+    width: 100%;
+}
+
+#nav-menu a:hover {
+    color: #b5838d;
+    text-decoration: underline;
+}
+
+/*------------------------------------------------------------Hero Image*/
+    
+body {
+    margin: 0;
+    padding: 0;
+    color: black; 
+    height: 100%
+}
+
+/*----hero-image code ideas from Love Running module/www.w3schools.com---*/
+
+.hero-image {
+    height: 500px;
+    width: 100%;
+    background-image : url("../images/hero-image.jpg");
+    background-color: #e5989b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;   
+}
+
+.hero-button {
+     text-align: center;
+     border: 3px solid #e5989b;
+     border-radius: 16px;
+     outline: 0;
+     background-color: transparent;
+     font-weight: 500;
+     font-size: 1.2em;
+     font-family: "Roboto" , sans-serif;
+     color: black;
+     padding: 10px 10px;
+     margin-left: 500px;
+     cursor: pointer;   
+}
+
+.hero-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-button a:hover {
+    color: #a7a69d;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;   
+}
+
+
+
+/*-------------------------------------------------------------------Footer----*/
+
+/* -------------Code ideas taken from resume project lesson/w3schools.com---*/
+
+footer {
+    position: absolute;
+    background-color: #b5838d;
+    color: #6d6875;
+    min-height: 120px;
+    margin: 0;
+}
+
+/*---code idea from stackoverflow.com/resume project lesson---*/
+
+.social-links {
+    padding-bottom: 15px;
+    padding-top: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;   
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 25px;
+}
+
+.social-links li a i {
+    width: 31px;
+    height: 31px;
+    padding: 12px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+    color: #b5838d;
+    background-color: black;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;   
+}
+
+.social-links li a i:hover {
+    background: #6d6875;
+}
