@@ -11,6 +11,8 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
+    float: left;
+    display: inline-block;
 }
 
 /*---------------------------------------------------------Navbar */
@@ -62,7 +64,7 @@ body {
      color: black;
      padding: 10px 10px;
      margin-left: 500px;
-     cursor: pointer;   
+     cursor: pointer; 
 }
 
 .hero-button a {
@@ -77,6 +79,8 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;   
 }
+
+/*--------------------------------------------------------------Carousel start----*/
 
 
 
