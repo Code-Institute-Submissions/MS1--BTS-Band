@@ -87,7 +87,28 @@ body {
     display: inline-block;
 }
 
+/*----------------------------------------------------------------iframe-content-----*/
 
+.frame-container {
+    margin-bottom: 70px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.article h2 {
+    font-family: "Merriweather" , sans-serif;
+}
+
+.album-container {
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.column {
+    padding: 40px;
+}
+    
 
 /*-------------------------------------------------------------------Footer----*/
 
