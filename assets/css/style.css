@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair:100,200,300,400,500,600,700;+Display&family=Roboto:100,200,300,400,500,600,700;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Sans+JP&display=swap');
 
-/*------------------------------------------------------Heading */
+/*-----------------------------------------------------------------Heading */
 
 header{
     margin: 0;
@@ -15,7 +16,7 @@ header{
     display: inline-block;
 }
 
-/*---------------------------------------------------------Navbar */
+/*--------------------------------------------------------------------Navbar */
 
 .navbar {
     font-family: playfair-display, sans-serif;
@@ -29,8 +30,6 @@ header{
     color: #b5838d;
     text-decoration: underline;
 }
-
-/*------------------------------------------------------------Hero Image*/
     
 body {
     margin: 0;
@@ -39,7 +38,7 @@ body {
     height: 100%
 }
 
-/*----hero-image code ideas from Love Running module/www.w3schools.com---*/
+/*----------------Hero-Image start. Code ideas from Love Running module/www.w3schools.com---*/
 
 .hero-image {
     height: 500px;
@@ -80,7 +79,13 @@ body {
     -o-transition: all 0.35s ease-in-out;   
 }
 
-/*--------------------------------------------------------------Carousel start----*/
+/*---------------------------------------------------------------Carousel start-------*/
+
+/*--------------------------------------------------------------Band Profile start---*/
+
+.profile-text {
+    display: inline-block;
+}
 
 
 
