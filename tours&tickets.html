@@ -30,41 +30,118 @@
                                 <a class="nav-link" href="music.html">Music</a>
                          </li>
                          <li class="nav-item mr-2">
-                                <a class="nav-link" href="tours&tickets.html">Tours & Tickets</a>
+                                <a class="nav-link current-page" href="tours&tickets.html">Tours & Tickets</a>
                          </li>
                          <li class="nav-item mr-2">
-                                <a class="nav-link current-page" href="contact-us.html">Contact Us</a>
+                                <a class="nav-link" href="contact-us.html">Contact Us</a>
                          </li>
                    </ul>
              </div>
        </nav>
    </header>
-<!---------------------------------------------------------------------------Navbar end---->
-
-<!------------------------------------------------------------Form section start--------->
-    <section class="container-fluid form-section">
-            <div class="row">
-                    <div class="col-6 offset-3">
-                         <div class="center-form">
-                            <form>
-                              <label for="name">Name</label>
-                              <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required><br/>
-                              <label for="email">E-mail</label>
-                              <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required><br/>
-                              <label for="query">Message Box</label>
-                              <textarea rows="5" name="query" id="query" class="form-control" placeholder="Bookings/Queries? Tell us here..." required></textarea>
-                              <div class="row">
-                                <div class="col">
-                                    <button type="submit" class="btn btn-primary form-button" value="sumbit">Submit</button>
-                                </div>
-                              </div>
-                            </form>
-                         </div>
-                    </div>
+ <!---------------------------------------------------------------------------navbar end---->
+<!--------------------Main body Heading------------------>
+    <section>
+      <div class="container">
+              <div class="row heading-center">
+                        <div class="col-12">
+                            <h2>Tour Dates</h2>
+                        </div>    
+              </div>
+      </div>
+<!----------------------------------------------------Table container start: code as per bootstrap-->
+      <div class="tour-container">
+           <div class="row">
+                <div class="col-6 offset-4">
+                     <h1>Concert Tour Dates</h1>
+                      <h3> The Tour has been planned for next year. 
+                        Limited Supply of Tickets. <br/>
+                        Get them while you can!
+                      </h3>
+                      <div class="alert alert-danger" role="alert">
+                          Attention! Due to the current situation with COVID-19
+                           the Tour has been <strong>postponed</strong> until further notice.
+                      </div>
+                </div>
             </div>
-    
+        </div>
+        <table class="table table-striped">
+             <thead>
+                   <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Date</th>
+                      <th scope="col">City</th>
+                      <th scope="col">Venue</th>
+                   </tr>
+              </thead>
+              <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>25.06.21</td>
+                        <td>Chicago</td>
+                        <td>Soldier Field</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>03.07.21</td>
+                        <td>LA</td>
+                        <td>Rose Bowl Stadium</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>08.07.21</td>
+                        <td>New Jersey</td>
+                        <td>Metlife Stadium</td>
+                    </tr>
+              </tbody>
+              <tbody>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>14.07.21</td>
+                        <td>Toronto</td>
+                        <td>Rogers Centre</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>19.07.21</td>
+                        <td>London</td>
+                        <td>Wembley Stadium</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>26.07.21</td>
+                        <td>Berlin</td>
+                        <td>Olympiastadion Berlin</td>
+                    </tr>
+              </tbody>
+              <tbody>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>02.08.21</td>
+                        <td>Tokyo</td>
+                        <td>Tokyo Dome</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>08.08.21</td>
+                        <td>Seoul</td>
+                        <td>Olympic Stadium</td>
+                    </tr>
+              </tbody>
+      </table>
     </section>
- <!-------------------------Footer start/ code as learned in code institute module----->
+<!----------------------------------------------------Table end-------------->
+    <section>
+         <div class="container-fluid">
+             <div class="row">
+                    <div class="col-md-7 offset-5" >
+                        <button type="button" class="ticket-button btn-lg" value="sumbit"><a href="https://discover.ticketmaster.co.uk/music/bts-43114/" target="_blank">Buy Tickets</a></button>
+                    </div>
+             </div>
+         </div>
+    </section>
+     
+<!-------------------------Footer start/ code as learned in code institute module----->
     <footer class="container-fluid">
          <div class="row">
               <div class="col-sm-12">

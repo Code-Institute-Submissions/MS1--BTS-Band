@@ -131,7 +131,7 @@ img.be-album {
   -o-transition: all 0.35s ease-in-out;
 }
 
-/*--------------------------------------------------------------Carousel start---*/
+/*---------------------------------------------------------Images-Carousel start---*/
 
 .carousel-inner {
   height: 545px;
@@ -186,21 +186,33 @@ img.be-album {
   padding: 0px;
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .article h2 {
   font-family: "Merriweather", sans-serif;
+  color: #92606a;
 }
 
 .album-container {
-  margin-left: 80px;
+  margin-left: 50px;
   margin-top: 60px;
+  padding:0;  
 }
 
 .column {
-  padding: 40px;
-}
+  padding: 50px;
+  
+ 
+  
 
+/*------------------------------------------------------Video Carousel -----*/
+
+video-carousel-inner {
+    width: 400px;
+    height: 450px;
+    margin-top: 10px;
+}
 /*----------------------------------------------------------Striped-Table-----*/
 
 .tour-container {
@@ -224,10 +236,10 @@ img.be-album {
   table-layout: fixed;
   margin-bottom: 50px;
   margin-top: 50px;
-  border-right: 2px solid grey;
-  border-left: 2px solid grey;
-  border-bottom: 2px solid grey;
-  border-top: 2px solid grey;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
 
 .ticket-button {
