@@ -11,7 +11,7 @@
 <body>
     <header>
 <!-----------navbar code as per bootstrap documentation ------>
-        <nav class="navbar navbar-default fixed-top navbar-light bg-light navbar-expand-lg">
+        <nav class="navbar navbar-default fixed-top navbar-light bg-light navbar-expand-lg" id="navbar">
                <a class="navbar-brand" href="index.html">
                <img src="assets/images/bts_logo.jpg" width="47.5" height="47.5" alt="bts_logo" loading="lazy">
                </a>
@@ -21,7 +21,7 @@
            <div class="collapse navbar-collapse mr-3" id="navbarNav">
                   <ul class="navbar-nav ml-auto" id="nav-menu">
                          <li class="nav-item active mr-2">
-                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="index.html">Home</a>
                          </li>
                          <li class="nav-item mr-2">
                                 <a class="nav-link" href="band.html">Band</a>
@@ -30,13 +30,13 @@
                                 <a class="nav-link" href="music.html">Music</a>
                          </li>
                          <li class="nav-item mr-2">
-                                <a class="nav-link" href="contact-us.html">Contact Us</a>
+                                <a class="nav-link current-page" href="contact-us.html">Contact Us</a>
                          </li>
                    </ul>
              </div>
        </nav>
- <!---------------------------------------------------------------------------Navbar end---->
-    </header>
+   </header>
+<!---------------------------------------------------------------------------Navbar end---->
 <!--------------------Main body Heading--------------->
     <section>
       <div class="container">
@@ -53,9 +53,10 @@
                 <div class="col-6 offset-4">
                      <h1>Concert Tour Dates</h1>
                       <h3> The Tour has been planned for next year. 
-                        Limited Supply of Tickets. </br>
+                        Limited Supply of Tickets. <br/>
                         Get them while you can!
-                 </div>
+                      </h3>
+                </div>
             </div>
         </div>
       <table class="table table-striped">
