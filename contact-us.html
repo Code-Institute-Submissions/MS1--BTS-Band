@@ -13,7 +13,7 @@
 <!-----------navbar code as per bootstrap documentation ------>
         <nav class="navbar navbar-default fixed-top navbar-light bg-light navbar-expand-lg">
                <a class="navbar-brand" href="index.html">
-               <img src="../images/bts_logo.jpg" width="30" height="30" alt="bts_logo" loading="lazy">
+               <img src="assets/images/bts_logo.jpg" width="47.5" height="47.5" alt="bts_logo" loading="lazy">
                </a>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
@@ -24,34 +24,137 @@
                                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                          </li>
                          <li class="nav-item mr-2">
-                                <a class="nav-link" href="#">Band</a>
+                                <a class="nav-link" href="band.html">Band</a>
                          </li>
                          <li class="nav-item mr-2">
-                                <a class="nav-link" href="#">Music</a>
+                                <a class="nav-link" href="music.html">Music</a>
                          </li>
                          <li class="nav-item mr-2">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="nav-link" href="contact-us.html">Contact Us</a>
                          </li>
                    </ul>
              </div>
        </nav>
- <!---------------------------------------------------------------------------navbar end---->
+ <!---------------------------------------------------------------------------Navbar end---->
     </header>
-<!------------------------hero-image code idea from Love Running module/www.w3schools.com-->
+<!--------------------Main body Heading--------------->
     <section>
-     <div class="container-fluid">
-          <div class="hero-image">
-               <div class="hero-button">
-                      <a href="#" class="button" role="button">First time with us?</a>
-               </div>
-          </div>  
-     </div>  
-    </section>
-    <section>
-        <div class="container">
-           <img src="../images/album.jpg" alt="bts_album" style="width:100%">
-        
+      <div class="container">
+              <div class="row heading-center">
+                        <div class="col-12">
+                            <h2>Tour Dates</h2>
+                        </div>
+                   
+              </div>
+      </div>
+<!----------------------------------------------------Table container start: code as per bootstrap-->
+      <div class="tour-container">
+           <div class="row">
+                <div class="col-6 offset-4">
+                     <h1>Concert Tour Dates</h1>
+                      <h3> The Tour has been planned for next year. 
+                        Limited Supply of Tickets. </br>
+                        Get them while you can!
+                 </div>
+            </div>
         </div>
+      <table class="table table-striped">
+             <thead>
+                   <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Date</th>
+                      <th scope="col">City</th>
+                      <th scope="col">Venue</th>
+                   </tr>
+              </thead>
+              <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>25.06.21</td>
+                        <td>Chicago</td>
+                        <td>Soldier Field</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>03.07.21</td>
+                        <td>LA</td>
+                        <td>Rose Bowl Stadium</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>08.07.21</td>
+                        <td>New Jersey</td>
+                        <td>Metlife Stadium</td>
+                    </tr>
+              </tbody>
+              <tbody>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>14.07.21</td>
+                        <td>Toronto</td>
+                        <td>Rogers Centre</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>19.07.21</td>
+                        <td>London</td>
+                        <td>Wembley Stadium</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>26.07.21</td>
+                        <td>Berlin</td>
+                        <td>Olympiastadion Berlin</td>
+                    </tr>
+              </tbody>
+              <tbody>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>02.08.21</td>
+                        <td>Tokyo</td>
+                        <td>Tokyo Dome</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8</th>
+                        <td>08.08.21</td>
+                        <td>Seoul</td>
+                        <td>Olympic Stadium</td>
+                    </tr>
+              </tbody>
+      </table>
+    </section>
+<!----------------------------------------------------Table end---------------->
+    <section>
+         <div class="container-fluid">
+             <div class="row">
+                    <div class="col-md-7 offset-5" >
+                        <button type="button" class="ticket-button btn-lg" value="sumbit"><a href="https://www.ticketmaster.co.uk/" target="_blank">Buy Tickets</a></button>
+                    </div>
+             </div>
+         </div>
+    </section>
+<!------------------------------------------------------------Form section start--------->
+    <section class="container-fluid form-section">
+            <div class="row">
+                    <div class="col">
+                         <div class="center-form">
+                            <form>
+                              <label for="name">Name</label>
+                              <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required></br>
+                              <label for="email">E-mail</label>
+                              <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required></br>
+                              <label for="query">Message Box</label>
+                              <textarea rows="5" name="query" id="query" class="form-control" placeholder="Bookings/Queries? Tell us here..." required></textarea>
+                              <div class="row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary form-button" value="sumbit">Submit</button>
+                                </div>
+                              </div>
+                            </form>
+                         </div>
+                    </div>
+            </div>
+    
     </section>
  <!-------------------------Footer start/ code as learned in code institute module----->
     <footer class="container-fluid">
@@ -59,31 +162,31 @@
               <div class="col-sm-12">
                    <ul class="list-inline social-links">
                          <li class="list-inline-item">
-                              <a href="#" target="_blank">
+                              <a href="https://www.facebook.com/bangtan.official" target="_blank">
                                     <i class="fab fa-facebook" aria-hidden="true"></i>
                                     <span class="sr-only">Facebook</span>
                               </a>
                     </li>
                     <li class="list-inline-item">
-                              <a href="#" target="_blank">
+                              <a href="https://twitter.com/bts_bighit" target="_blank">
                                      <i class="fab fa-twitter" aria-hidden="true"></i>
                                      <span class="sr-only">Twitter</span>
                               </a>
                      </li>
                      <li class="list-inline-item">
-                              <a href="#" target="_blank">
+                              <a href="https://www.instagram.com/bts.bighitofficial/" target="_blank">
                                      <i class="fab fa-instagram" aria-hidden="true"></i>
                                      <span class="sr-only">Instagram</span>
                               </a>
                       </li>
                       <li class="list-inline-item">
-                              <a href="#" target="_blank">
+                              <a href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX" target="_blank">
                                      <i class="fab fa-spotify" aria-hidden="true"></i>
                                      <span class="sr-only">Spotify</span>
                               </a>
                       </li>
                       <li class="list-inline-item">
-                              <a href="#" target="_blank">
+                              <a href="https://www.youtube.com/c/BigHitLabels" target="_blank">
                                      <i class="fab fa-youtube" aria-hidden="true"></i>
                                      <span class="sr-only">Youtube</span>
                               </a>
