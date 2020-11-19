@@ -38,7 +38,7 @@ header {
     color: #92606a;
 }
 
-body {
+body, {
   margin: 0;
   padding: 0;
   color: black;
@@ -202,33 +202,27 @@ img.be-album {
 
 .column {
   padding: 50px;
-  
- 
-  
-
-/*------------------------------------------------------Video Carousel -----*/
-
-video-carousel-inner {
-    width: 400px;
-    height: 450px;
-    margin-top: 10px;
 }
+
 /*----------------------------------------------------------Striped-Table-----*/
 
 .tour-container {
-  margin-top: 30px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  align-content: center;
 }
 
 .tour-container h1 {
   color: #b5838d;
   font-size: 50px;
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
-
 .tour-container h3 {
   color: black;
   font-size: 15px;
   font-family: "Merriweather", sans-serif;
+  text-align: center;
 }
 
 .table-striped {
@@ -236,10 +230,19 @@ video-carousel-inner {
   table-layout: fixed;
   margin-bottom: 50px;
   margin-top: 50px;
-  border-right: 2px solid black;
-  border-left: 2px solid black;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
+  margin-left: 5px;
+  margin-right: 20px;
+  padding: 0;
+  border-right: 2px solid grey;
+  border-left: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+}
+
+.table-striped .table-row {
+    padding: 0;
+    margin-right:;
+    margin-left: 0;
 }
 
 .ticket-button {
