@@ -1,4 +1,4 @@
-[Lifepage](https://tthuva192.github.io/MS1--BTS-Band/) 
+[Livepage](https://tthuva192.github.io/MS1--BTS-Band/) 
 
 # BTS Band 
 
@@ -162,6 +162,17 @@ The current Images are static and not very engaging,
 Project looks and works well on desktop and larger screens. However the home screen
 does not fit correctly into smaller window screens. As there is two rows side by side 
 below the hero image the elements do not seem to be aligning properly.
+
+## Deployment:
+
+This Project was developed on gitpod. To move the website from its developmental stage on gitpod to a live website on github pages the following steps were taken:
+
+1. Open GitHub browser
+2. Login to account using username and password and navigate to repository section.
+3. From repository page click on settings  
+4. In Settings under GitHub pages choose a publishing source (e.g None/your main-branch source )
+5. from the Drop-down menu choose a folder as publishing source.
+6. Amend name of file if required and save. 
 
 ## Credits:
 
