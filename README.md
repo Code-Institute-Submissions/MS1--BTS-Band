@@ -27,9 +27,11 @@ Developer :
 
 * As a Developer I want all the features to make the website clear but attention-grabbing
 
-#### Design: 
+## Design: 
 
-# Balsamic-Framework 
+### Balsamic-Framework 
+
+
 
 #### Font: 
 
@@ -147,10 +149,23 @@ below the hero image the elements do not seem to be aligning properly.
 
 The images used in this project were mostly taken from Google image search:
 
-1. http://images.summitmedia-digital.com/cosmo/images/2019/04/17/bts-big-hit-entertainment-1555468185.jpg-Hero Image
-
-
-
+1. Hero Image- http://images.summitmedia-digital.com/cosmo/images/2019/04/17/bts-big-hit-entertainment-1555468185.jpg-Hero Image
+2.   http://mimgnews2.naver.net/image/433/2018/06/17/0000045993_001_20180617084832865.jpg
+3.   http://mimgnews1.naver.net/image/433/2018/06/20/0000046054_001_20180620081031815.jpg
+4.   http://mimgnews1.naver.net/image/433/2018/06/18/0000045997_001_20180618084431949.jpg
+5.   http://mimgnews2.naver.net/image/433/2018/06/19/0000046024_001_20180619083433965.jpg
+6.   https://i2.wp.com/mimgnews1.naver.net/image/433/2018/06/15/0000045954_001_20180615091334861.jpg
+7.   http://mimgnews2.naver.net/image/433/2018/06/16/0000045973_001_20180616083832528.jpg
+8.   https://www.allkpop.com/upload/2020/01/content/081321/1578507669-3deovndp5l941.jpg
+9.   https://thevisionmsms.org/wp-content/uploads/2018/08/oofsies-900x900.jpg
+10.  https://www.allkpop.com/upload/2020/08/content/211833/1598049204-btsdynamite.jpg
+11.  https://nekosia.com/wp-content/uploads/2016/05/BTS-The-Most-Beautiful-Moment-in-Life-Young-Forever-Special-Album-320kbps-www.kstar-mp3.us_.jpg
+12.  https://i.pinimg.com/originals/20/5d/c4/205dc4a2444020591560683a2d185169.jpg
+13.  https://thatgrapejuice.net/wp-content/uploads/2020/09/bts-be-album-tgj-600x600.jpeg
+14.  https://cdn2.thelineofbestfit.com/images/made/images/remote/https_cdn2.thelineofbestfit.com/media/2014/btsmap_600_600.png
+15.  https://img585.imageshack.us/img585/3096/373047.jpg
+16.  https://ih1.redbubble.net/image.592218934.6917/flat,750x1000,075,t.jpg
+17.  https://www.scoutmag.ph/wp-content/uploads/13646696_10208407348393868_1760498610_o.jpg
 
 
 ### Content
@@ -168,3 +183,15 @@ The images used in this project were mostly taken from Google image search:
 6. Alert button taken from [Bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/)
 
 7. Mail-to code taken from [W3schools](https://www.w3schools.com/tags/tag_address.asp)
+
+### Acknowledgemnt:
+
+I have received ideas and inspirations for this project from these sources:
+
+1. w3schools
+
+2. stackoverflow
+
+3. [KatyPerry](https://www.katyperry.com/) Website
+
+4. Fellow students from Slack
