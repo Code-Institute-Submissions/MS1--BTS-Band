@@ -1,22 +1,25 @@
 # BTS Band 
 
- This project is designed to create a website as a promotional medium for the Pop-Band
- BTS. The Webpage is to draw interest and to provide basic information.
+ The goal of this project is to create a website which serves as a promotional medium for the Pop-Band
+ BTS. The aim of the Webpage is to provide users with Information about the Band,their music and their tours.
 
 ## User Experience 
 
-The main target audience for the website would be females aged between 12-30 
-including existing fans as well as non-fans.
+The primary target audience for the website would be females aged between 12-30 
+such as existing fans and new general users. However the website should be able to appeal
+to anyone outside of the target audience as well.
 
 ### User Stories:
 
 First Time User:
 
-* As a First time user I want to easily navigate to find Information
+ * As a First time user I want to easily navigate to find Information
 
-* As a First time user I want Information on the Webpages to be clear and Clean
+ * As a First time user I want Information on the Webpages to be clear and Clean
 
-* As a First time user I want to look at the Webpages on my phone screen
+ * As a First time user I want to look at the Webpages on my phone screen
+
+ * As a First time user I want the Website to be engaging and fun for me to keep browsing.
 
 
 Developer :
@@ -25,20 +28,35 @@ Developer :
 
 * As a Developer I want to make use of all the HTML and CSS that I learned to create a responsive website
 
-* As a Developer I want all the features to make the website clear but attention-grabbing
+* As a Developer I want the features of the website to be relevant and attention-grabbing 
 
 ## Design: 
 
 ### Balsamic-Framework 
 
+Before beginning the coding and styling section of the project I created a simple design framework
+using pencil and paper. The framework included the basic components, Features and Icons to be included in the website.
+From the beginning the design plan was to keep the layout and structure of the webpages as simple and clean as possible
+to avoid overload of information and clutter. However even so i found myself adding or changing designs I had included in the intitial stages of
+the framework.
+Below is the Balsamic framework i drew up for each webpage.
 
+1. [Home](https://github.com/tthuva192/MS1--BTS-Band/blob/bf5581ec316a3afed1669e5a8e793864779bd6e5/assets/wireframes/MS1-Home%20page.png)
+
+2. [About](https://github.com/tthuva192/MS1--BTS-Band/blob/bf5581ec316a3afed1669e5a8e793864779bd6e5/assets/wireframes/MS1-About%20page.png)
+
+3. [Music](https://github.com/tthuva192/MS1--BTS-Band/blob/bf5581ec316a3afed1669e5a8e793864779bd6e5/assets/wireframes/MS1-Music.png)
+
+4. [Gigs/Contact-us](https://github.com/tthuva192/MS1--BTS-Band/blob/bf5581ec316a3afed1669e5a8e793864779bd6e5/assets/wireframes/MS1-Gigs_contact%20us%20page.png)
 
 #### Font: 
 
 3 different fonts were used for this Website : ["Roboto"](https://fonts.google.com/specimen/Roboto?query=roboto), ["Playfair Display"](https://fonts.google.com/specimen/Playfair+Display?query=playfair+display)
 and ["Merriweather"](https://fonts.google.com/specimen/Merriweather?query=merri); all which were taken from Google fonts and imported into the html file. 
-These fonts were choosen after researching which fonts go well to-gether and which fonts are particularly suitable for Music/Band websites. 
-All three fonts have a simple design and are easily readable.
+
+Roboto is a quite commonly used font and goes well together with the other two. 
+Playfair Display is a font appropriate to be used for websites designed for Bands and Games.
+As the website is designed to be casual but not playful these fonts are quite in-line with the intention of the website.
 
 #### Colour-palette: 
 
