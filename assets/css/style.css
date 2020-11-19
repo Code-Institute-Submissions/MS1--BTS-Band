@@ -58,10 +58,6 @@ body, {
   position: relative;
 }
 
-@media (max-width: 768px) {
-  background: url("mobile-hero-image.jpg") no-repeat center top;
-}
-
 .hero-button {
   text-align: center;
   border: 3px solid #e5989b;
@@ -195,7 +191,7 @@ img.be-album {
 }
 
 .album-container {
-  margin-left: 50px;
+  margin-left: 55px;
   margin-top: 60px;
   padding:0;  
 }
@@ -237,12 +233,6 @@ img.be-album {
   border-left: 2px solid grey;
   border-bottom: 2px solid grey;
   border-top: 2px solid grey;
-}
-
-.table-striped .table-row {
-    padding: 0;
-    margin-right:;
-    margin-left: 0;
 }
 
 .ticket-button {
@@ -367,7 +357,30 @@ footer {
   background: #6d6875;
 }
 
-/*------------------------------------------------------------Media Query section--*/
 
-@media screen and (max-width: 1393px) {
+@media screen and (max-width:1200px) {
+   .jumbotron-fluid {
+       margin-top: 120px;
+       clear: left;
+       display: block;
+       margin:0 auto;
+       width: 100%;
+       padding: 0;
+       margin-left: 80px;
+   }
+
+   .email-contact {
+       margin-bottom: 60px;
+       margin: 50px auto; 
+       padding: 0;
+   }
+
+      #first-frame {
+       column-count: 6;
+       display: block;
+       width: 100%;
+       clear: left;
+       position: absolute;
+   }
+
 }
