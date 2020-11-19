@@ -268,11 +268,18 @@ img.be-album {
 
 /*------------------------------------------------------------Contact Form----*/
 
+.form-section {
+    margin-top: 30px;
+    padding: 0;
+}
+
 .center-form {
   padding-top: 10px;
-  margin: 0 auto;
+  margin-top: 50px;
   max-width: 60%;
   margin-bottom: 30px;
+  margin-left: 80px;
+  padding: 0;
 }
 
 .form-button {
@@ -287,6 +294,29 @@ img.be-album {
   border: 3px solid #e5989b;
   border-radius: 16px;
   color: #6d6875;
+}
+
+.email-contact {
+    margin-top: 90px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.email-contact h4 {
+    color: #92606a;
+}
+
+.email-contact a {
+    color: #ffb4a2;
+    text-decoration: none;
+}
+
+.email-contact a:hover {
+  color: #6d6875;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 /*-------------------------------------------------------------------Footer----*/
