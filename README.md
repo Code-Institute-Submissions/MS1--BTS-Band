@@ -34,7 +34,7 @@ Developer :
 
 ## Design: 
 
-### Balsamic-Framework 
+### Balsamiq-Framework 
 
 Before beginning the coding and styling section of the project I created a simple design framework
 using pencil and paper. The framework included the basic components, Features and Icons to be included in the website.
