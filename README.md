@@ -167,8 +167,8 @@ below the hero image the elements do not seem to be aligning properly.
 
 This Project was developed on gitpod. To move the website from its developmental stage on gitpod to a live website on github pages the following steps were taken:
 
-1. Open GitHub browser
-2. Login to account using username and password and navigate to repository section.
+1. Open GitHub page in Chrome
+2. Login to GitHub account using username and password and navigate to repository section.
 3. From repository page click on settings  
 4. In Settings under GitHub pages choose a publishing source (e.g None/your main-branch source )
 5. from the Drop-down menu choose a folder as publishing source.
